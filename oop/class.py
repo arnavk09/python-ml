@@ -10,7 +10,7 @@ class Item:
         self.qty = int(input("Qty: "))
 
     def totalPrice(self):
-        return self.price*self.qty
+        return self.price * self.qty
 
 
 item1 = Item('Phone', 3, 1000)
